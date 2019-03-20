@@ -1,0 +1,62 @@
+<configs>
+    <append xpath="/recipes">
+      	<recipe name="ammo9mmBullet" count="50">
+			<ingredient name="Ammo Supply 9mm" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo9mmBulletJHP" count="50">
+			<ingredient name="Ammo Supply 9mm" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo9mmBulletSteel" count="50">
+			<ingredient name="Ammo Supply 9mm" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo44MagnumBullet" count="45">
+			<ingredient name="Ammo Supply 44Mag" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo44MagnumBulletAP" count="45">
+			<ingredient name="Ammo Supply 44Mag" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletSteel" count="45">
+			<ingredient name="Ammo Supply 44Mag" count="1"/>
+		</recipe>
+		
+		<recipe name="Deagle Round" count="45">
+			<ingredient name="Ammo Supply 50Mag" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo762mmBulletFMJ" count="40">
+			<ingredient name="Ammo Supply 762mm" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo762mmBulletAP" count="40">
+			<ingredient name="Ammo Supply 762mm" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletFMJSteel" count="40">
+			<ingredient name="Ammo Supply 762mm" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoShotgunShell" count="35">
+			<ingredient name="Ammo Supply Shotgun" count="1"/>
+		</recipe>
+
+		<recipe name="ammoShotgunSlug" count="35">
+			<ingredient name="Ammo Supply ShotgunSlug" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoBlunderbuss" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+		
+        <recipe name="meleeToolStoneAxeTazas" count="1">
+			<ingredient name="meleeToolStoneAxe" count="1"/>
+			<ingredient name="resourceRockSmall" count="20"/>
+			<ingredient name="resourceYuccaFibers" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+        </recipe>
+   </append>
+    </configs>
