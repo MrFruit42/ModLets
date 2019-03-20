@@ -20,7 +20,7 @@
 				<property name="Repair_amount" value="100"/>
 				<property name="Upgrade_hit_offset" value="0"/>
 				<property name="Sound_start" value="repair_block"/>
-				<property name="Allowed_upgrade_items" value="HD Lock Pick"/>
+				<property name="Allowed_upgrade_items" value="HD Lock Pick,resourceForgedIron"/>
 				<property name="UsePowerAttackAnimation" value="false"/>
 			</property>
 			<effect_group name="Base Effects" tiered="false">
