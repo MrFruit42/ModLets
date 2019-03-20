@@ -1,0 +1,10 @@
+<configs>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="Punisher">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0001,-0.020,0.01"/>
+		</item_property_overrides>
+	</append>
+	
+</configs>

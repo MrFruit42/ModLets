@@ -1,0 +1,71 @@
+<configs>
+<append xpath="/items">
+	
+<item name="HD Xcalibur">
+	<property name="Tags" value="blunt,club,clubIron,melee,light,weapon,meleeWeapon,perkStayDown"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HDXcalibur.unity3d?HDXcalibur.Prefab"/>
+	<property name="CustomIcon" value="HDXcalibur"/>
+	<property name="Group" value="Ammo/Weapons,Basics"/>
+	<property name="HoldType" value="2"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+	<property name="ActionSkillGroup" value="Destruction"/>
+	<property name="CraftingSkillGroup" value="attIntellect"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="EconomicValue" value="750"/>
+	<property name="FuelValue" value="1000"/>
+
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="Sphere" value="0.1"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+	</property>
+
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="Sphere" value="0.1"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<property name="UsePowerAttackAnimation" value="true"/>
+	</property>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="35"/> <!-- meleeClubIron -->
+		<passive_effect name="BlockDamage" operation="base_set" value="10"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/> <!-- A16 1.15 -->
+		<passive_effect name="StaminaLoss" operation="base_set" value="10.0" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="2000,5000" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="15" tags="secondary"/>
+
+		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="bladetrap_impact3">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="IsMale" target="self"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="bladetrap_impact2">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="IsMale" target="self" invert="true"/>
+		</triggered_effect>
+
+	</effect_group>
+</item>
+
+</append>
+</configs>

@@ -1,0 +1,12 @@
+<configs>
+<append xpath="/recipes">
+
+<recipe name="HD Xcalibur" count="1">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="15"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceWood" count="40"/>
+</recipe>
+
+</append>
+</configs>

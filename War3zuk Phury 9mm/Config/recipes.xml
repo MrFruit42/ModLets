@@ -1,0 +1,13 @@
+<configs>
+<append xpath="/recipes">
+
+<recipe name="Phury 9mm" craft_area="workbench" count="1" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="75"/>
+	<ingredient name="resourceMechanicalParts" count="45"/>
+	<ingredient name="resourceDuctTape" count="15"/>
+	<ingredient name="resourceScrapPolymers" count="25"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+</append>
+</configs>

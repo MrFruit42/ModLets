@@ -1,0 +1,11 @@
+<configs>
+	
+    <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='KickDegreesVertical']/@value">0.0</set>
+    <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='KickDegreesHorizontal']/@value">0.0</set>
+    <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/display_value[@name='dRecoil']/@value">0</set>
+	
+	<set xpath="/items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/passive_effect[@name='KickDegreesVertical']/@value">0.0</set>
+    <set xpath="/items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/passive_effect[@name='KickDegreesHorizontal']/@value">0.0</set>
+    <set xpath="/items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/display_value[@name='dRecoil']/@value">0</set>
+	
+</configs>

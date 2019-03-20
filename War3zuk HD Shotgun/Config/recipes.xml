@@ -1,0 +1,13 @@
+<configs>
+<append xpath="/recipes">
+
+<recipe name="HD Spas 12" craft_area="workbench" count="1" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="250"/>
+	<ingredient name="resourceMechanicalParts" count="75"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="35"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+</append>
+</configs>

@@ -1,0 +1,91 @@
+<configs>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='8']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='9']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='11']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='15']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='19']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='22']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='24']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='50']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='54']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='71']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='73']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='100']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='101']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='104']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 		
+
+</configs>

@@ -1,0 +1,48 @@
+<configs>
+		
+	<append xpath="/blocks/block[@name='cntWallSafeShamway']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeShamwayInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="20"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntWallSafeBrewery']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeBreweryInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="20"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntGunSafe']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntGunSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="20"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntWallSafe']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="20"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntDeskSafe']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntDeskSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="20"/>
+		</property>
+	</append>
+	
+</configs>

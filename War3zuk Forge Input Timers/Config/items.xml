@@ -1,0 +1,8 @@
+<configs>
+	
+	<set xpath="/items/item[@name='resourceIronFragment']/property[@name='Weight']/@value">1</set>
+	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Weight']/@value">1</set>
+	<set xpath="/items/item[@name='resourceBrokenGlass']/property[@name='Weight']/@value">1</set>
+	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='Weight']/@value">1</set>
+	
+</configs>

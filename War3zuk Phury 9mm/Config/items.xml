@@ -1,0 +1,85 @@
+<configs>
+	
+<append xpath="/items">
+	
+<item name="Phury 9mm">
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,perkGunslinger"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="CustomIcon" value="Phury 9mm"/>
+	<property name="HoldType" value="1"/>
+	<property name="Meshfile" value="#@modfolder:Resources/M1911Pistol.unity3d?M1911Pistol.Prefab"/>
+	<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="20"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Attachments" value="meleeToolFlashlight02"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="pistol_sight_in"/>
+	<property name="Sound_Sight_Out" value="pistol_sight_out"/>
+	<property name="LightSource" value="lightSource"/>
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+	<property name="AttachmentFlashlight" value="flashlight02"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActionSkillGroup" value="Pistols"/>
+	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="LightValue" value="0.45"/>
+	<property name="EconomicValue" value="300"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Magazine_items" value="ammo9mmBullet,ammo9mmBulletSteel"/>
+		<property name="Sound_start" value="Pistol_Fire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="weapon_empty"/>
+		<property name="Sound_reload" value="pistol_reload"/>
+		<property name="Particles_muzzle_fire" value="nozzleflash"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="0,.0008,0"/>
+	</property>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="MaxRange" operation="base_set" value="50"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="18"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="1"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="0"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="550"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="2"/>
+
+		<passive_effect name="MagazineSize" operation="base_set" value="12"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0.0"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0.0"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".2"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".4"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value=".5"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value=".8"/>
+		
+		<passive_effect name="KickDegreesVertical" operation="base_set" value="0.0"/>
+		<passive_effect name="KickDegreesHorizontal" operation="base_set" value="0,0"/>
+		<display_value name="dRecoil" value="1" />
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.6"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="0.50"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1100" tier="1,6"/>
+
+	</effect_group>
+</item>
+
+</append>
+</configs>

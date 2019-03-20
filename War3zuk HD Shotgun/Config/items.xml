@@ -1,0 +1,78 @@
+<configs>
+	
+<append xpath="/items">
+
+<item name="HD Spas 12">
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,customTopAttachments,smallTopAttachments,mediumTopAttachments,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,stock,firingMode,perkShotgunMessiah"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="48"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Shot.unity3d?Spaz12Prefab"/>
+	<property name="CustomIcon" value="HD Spas 12"/>
+	<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="80"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Attachments" value="meleeToolFlashlight02"/>
+	<property name="CrosshairOnAim" value="false"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="rifle_sight_in"/>
+	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+	<property name="LightSource" value="lightSource"/>
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActionSkillGroup" value="Shotguns"/>
+	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
+	<property name="LightValue" value="0.45"/>
+	<property name="EconomicValue" value="900"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value="0.428"/>
+		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug"/>
+		<property name="Reload_time" value="2.6"/>
+		<property name="Sound_start" value="spazfire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="spazpump"/>
+		<property name="Sound_reload" value="spazreload"/>
+		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
+		<property name="ScopeOffset" value="0,0,0"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="0.0001,0.029,0.24"/>
+	</property>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="250"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+
+		<passive_effect name="MagazineSize" operation="base_set" value="12"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+
+		<passive_effect name="KickDegreesVertical" operation="base_set" value="0.1"/>
+		<passive_effect name="KickDegreesHorizontal" operation="base_set" value="0.1,0.1"/>
+		<display_value name="dRecoil" value="5" />
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="1.0"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="1500,3000" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+	</effect_group>
+</item>
+
+</append>
+</configs>
