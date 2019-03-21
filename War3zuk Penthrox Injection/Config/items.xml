@@ -6,8 +6,9 @@
 	<property name="DisplayType" value="medical"/>
 	<property name="CustomIcon" value="Penthrox Injection"/>
 	<property name="HoldType" value="16"/>
-	<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
-	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Penthrox.unity3d?Penthrox.Prefab"/>
+	<!-- <property name="Meshfile" value="Items/Health/painkillersPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/> -->
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="500"/>
 	<property name="Stacknumber" value="20"/>
@@ -19,13 +20,14 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Use_time" value="..."/>
-		<property name="Sound_start" value="player_ointment"/>
+		<property name="Sound_start" value="player_firstaidkit"/>
 	</property>
+	
 	<property class="Action1">
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Use_time" value="..."/>
-		<property name="Sound_start" value="player_ointment"/>
+		<property name="Sound_start" value="player_firstaidkit"/>
 	</property>
 
 	<effect_group tiered="false">
