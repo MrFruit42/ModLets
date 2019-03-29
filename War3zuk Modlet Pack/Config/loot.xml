@@ -1,0 +1,371 @@
+<configs>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='8']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='9']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='11']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='15']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='19']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='22']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='24']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='50']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='54']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='71']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='73']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='100']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='101']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='104']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
+		<item name="Deagle Round" count="25,50" prob="0.2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='ammo']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 50Mag" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='ammoSteel']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='weaponsPistol+ammo']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='weaponsMagnum+ammo']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='weaponsShotgun+ammo']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='weaponsMP5+ammo']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='weaponsAK47+ammo']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='weaponsHuntingRifle+ammo']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='weaponsSniperRifle+ammo']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='8']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='9']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='11']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='15']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='19']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='22']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='24']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='50']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='54']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='71']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='73']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='100']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='101']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='104']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
+		<item name="Generic Ammo Supply" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 9mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 44Mag" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply 762mm" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply Shotgun" count="0,2" prob="0.2"/>
+		<item name="Ammo Supply ShotgunSlug" count="0,2" prob="0.2"/>
+		</append>	
+
+</configs>

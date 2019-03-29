@@ -1,0 +1,27 @@
+<configs>
+	
+<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">60</set>
+<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">60</set>
+<set xpath="/buffs/buff[@name='buffInjuryBleeding']/effect_group/triggered_effect[@trigger='onSelfBuffStart']/@intensity">0</set>
+<set xpath="/buffs/buff[@name='buffInjuryStunned1']/effect_group/triggered_effect[@trigger='onSelfBuffStart']/@intensity">0</set>
+<set xpath="/buffs/buff[@name='buffInjuryStunned2']/effect_group/triggered_effect[@trigger='onSelfBuffStart']/@intensity">0</set>
+<set xpath="/buffs/buff[@name='buffInjuryUnconscious']/effect_group/triggered_effect[@trigger='onSelfBuffStart']/@intensity">0</set>
+<set xpath="/buffs/buff[@name='buffAnemia4']/effect_group/triggered_effect[@trigger='onSelfBuffStart']/@intensity">0</set>
+
+<append xpath="/buffs">
+	
+<buff name="Penthrox Injection" name_key="Penthrox Injection" description_key="Penthrox Injection"
+	icon="ui_game_symbol_stealth" icon_color="255,128,0" icon_blink="true" remove_on_death="true">
+	<stack_type value="ignore"/>
+	<duration value="60"/>
+	<effect_group>
+		<passive_effect name="LightMultiplier" operation="perc_subtract" value="0.9999" />
+		<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="0.9999"/>
+		<triggered_effect trigger="onSelfBuffStart" action="PlaySound" target="self" sound="player1painlg1" play_in_head="true"/>
+		<triggered_effect trigger="onSelfBuffStart" action="FadeOutSound" target="self" sound="player1painlg1" play_in_head="true"/>
+		<triggered_effect trigger="onSelfBuffRemove" action="PlaySound" target="self" sound="player1painlg1" play_in_head="true"/>
+	</effect_group>		
+</buff>
+
+</append>
+</configs>

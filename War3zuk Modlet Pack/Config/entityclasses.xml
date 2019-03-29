@@ -1,0 +1,26 @@
+<configs>
+	
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity'][@value='18']/@value">84</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize'][@value='45']/@value">84</set>
+	
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">keystoneBlock</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">keystoneBlock</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">keystoneBlock</set>
+
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CrouchSpeed']/@value">1.2</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WalkSpeed']/@value">1.3</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='RunSpeed']/@value">1.5</set>
+
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss'][@tags='jumping']/@value">2.0</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss'][@tags='swimming']/@value">3.0</set>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'zombie')]/property[contains(@name,'LootDropProb')]/@value">.20</set>
+<set xpath="/entity_classes/entity_class[starts-with(@name,'zombieTemplate')]/property[@name='LootDropProb']/@value">.20</set>
+<set xpath="/entity_classes/entity_class[contains(@name,'Feral')]/property[@name='LootDropProb']/@value">.40</set>
+<set xpath="/entity_classes/entity_class[contains(@name,'Radiated')]/property[@name='LootDropProb']/@value">.60</set>
+<set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">.80</set>
+<set xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/property[@name='LootDropProb']/@value">1</set>
+<set xpath="/entity_classes/entity_class[contains(@name,'EntityLoot')]/property[contains(@name,'TimeStayAfterDeath')]/@value">600</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">100</set>
+
+</configs>

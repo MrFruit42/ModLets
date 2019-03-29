@@ -1,0 +1,282 @@
+<config>
+
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival1']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival2']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival3']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival4']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival5']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival6']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival7']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival8']" />
+	<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']" />
+	
+	<insertBefore xpath="/quests/quest[@id='challenge_silenceofthelambs']" >
+
+
+	<quest id="quest_BasicSurvival1">
+		<property name="group_name"   value="Survival Training" />
+		<property name="name"         value="Craft A BedRoll" /> 
+		<property name="subtitle"     value="Foraging" />
+		<property name="description"  value="You need to make an area to sleep, Heal And have a safe spot for respawning." />
+		<property name="icon"         value="ui_game_symbol_survival" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty"   value="easy"/>
+		<property name="difficulty_tier" value="1" />
+		<property name="offer"        value="Hello, from the looks of you, you could use some survival pointers." />
+		<property name="shareable"    value="false" />
+
+		<action type="TrackQuest" />
+
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="40" phase="1" />
+		<objective type="Craft">
+			<property name="phase" value="2" />
+			<property name="item" value="bedroll" />
+			<property name="count" value="2" />
+		</objective>
+
+		<objective type="BlockPlace" id="bedroll" value="1" phase="2" />
+
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="quest_BasicSurvival2" />
+		<reward type="SkillPoints" value="1" chainreward="true" />
+	</quest>
+
+
+	<quest id="quest_BasicSurvival2">
+		<property name="group_name"  value="Survival Training" />
+		<property name="name"        value="Craft An Axe" />
+		<property name="subtitle"        value="Foraging" />
+		<property name="subtitle_key"    value="Time To Build" />
+		<property name="description_key" value="It is important you craft an Axe so your able to gather resources at a decent pace." />
+		<property name="icon"            value="ui_game_symbol_survival" />
+		<property name="category_key" value="quest" />
+		<property name="offer_key" value="quest_BasicSurvival_offer" />
+		<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="2" phase="1" />
+		<objective type="FetchKeep" id="resourceWood" value="2" phase="1" />
+		<objective type="FetchKeep" id="resourceRockSmall" value="4" phase="1" />
+
+		<objective type="Craft">
+			<property name="phase" value="2" />
+			<property name="item" value="meleeToolStoneAxe" />
+			<property name="count" value="1" />
+		</objective>
+
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="quest_BasicSurvival3" />
+		<reward type="SkillPoints" value="1" chainreward="true" />
+	</quest>
+
+
+	<quest id="quest_BasicSurvival3">
+		<property name="group_name"      value="Survival Training" />
+		<property name="name"            value="Craft Tazas Axe" />
+		<property name="subtitle"        value="Upgrade Your Axe" />
+		<property name="subtitle"        value="Tazas Axe" />
+		<property name="description"     value="Time to Upgrade your Axe so you can Gather resources Better And Faster." />
+		<property name="icon"            value="ui_game_symbol_tool" />
+		<property name="category_key"    value="quest" />
+		<property name="offer_key"       value="quest_BasicSurvival_offer" />
+		<property name="shareable"       value="false" />
+
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="10" phase="1" />
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1" />
+		<objective type="FetchKeep" id="resourceRockSmall" value="20" phase="1" />
+
+		<objective type="Craft">
+			<property name="phase" value="2" />
+			<property name="item" value="meleeToolStoneAxeTazas" />
+			<property name="count" value="1" />
+		</objective>
+
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="quest_BasicSurvival4" />
+		<reward type="SkillPoints" value="1" chainreward="true" />
+	</quest>
+
+
+	<quest id="quest_BasicSurvival4">
+		<property name="group_name"      value="Survival Training" />
+		<property name="name"            value="Craft Bow And Arrows" />
+		<property name="subtitle"        value="Defend Yourself" />
+		<property name="description"     value="You need a Bow to be able to Defend yourself And to be able to Gather Meat And Hide." />
+		<property name="icon"            value="ui_game_symbol_spatula" />
+		<property name="category_key"    value="quest" />
+		<property name="difficulty"      value="easy" />
+		<property name="shareable"       value="false" />
+
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1" />
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="3" phase="1" />
+		<objective type="FetchKeep" id="resourceFeather" value="2" phase="1"/>
+		<objective type="FetchKeep" id="resourceRockSmall" value="2" phase="1" />
+		<objective type="Craft" id="gunWoodenBow" value="1" phase="2" />
+		<objective type="Craft" id="ammoArrowStone" value="2" phase="2" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="quest_BasicSurvival5" />
+		<reward type="SkillPoints" value="1" chainreward="true" />
+	</quest>
+	
+	
+	<quest id="quest_BasicSurvival5">
+		<property name="group_name"      value="Survival Training" />
+		<property name="name"            value="Craft A Fire Pit" />
+		<property name="subtitle"        value="Cooking And Warmth" />
+		<property name="description"     value="You now have the Basics, A Tool, Defence And the ability to Cook, STAY SAFE !!." />
+		<property name="icon"            value="ui_game_symbol_spatula" />
+		<property name="category_key"    value="quest" />
+		<property name="difficulty"      value="easy" />
+		<property name="shareable"       value="false" />
+
+		<objective type="FetchKeep" id="resourceRockSmall" value="8" phase="1" />
+		<objective type="Craft" id="campfire" value="1" phase="2" />
+		<objective type="BlockPlace" id="campfire" value="1" phase="2" />
+		
+		<reward type="Exp" value="2000" />
+		<reward type="Quest" id="quest_whiteRiverCitizen1" />
+		<reward type="SkillPoints" value="5" chainreward="true" />
+	</quest>
+	
+	<quest id="quest_whiteRiverCitizen1">
+		<property name="group_name_key" value="quest_WhiteRiverCitizen" />
+		<property name="name_key" value="quest_WhiteRiverCitizen1" />
+		<property name="subtitle_key" value="quest_WhiteRiverCitizen1_subtitle" />
+		<property name="description_key" value="quest_WhiteRiverCitizen1_description" />
+		<property name="icon" value="ui_game_symbol_map_trader" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="medium" />
+		<property name="shareable" value="false" />
+
+		<action type="ShowTip" value="quest_WhiteRiverCitizen1_description">
+			<property name="delay" value="3" />
+		</action>
+		<objective type="Goto" id="trader" value="5" phase="1" />
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2" />
+		</objective>
+
+		<reward type="Exp" value="2500" />
+		<reward type="Item" id="Chest Paper" />
+		<reward type="Quest" id="quest_AdvancedSurvival1" />
+	</quest>
+	
+	<quest id="quest_AdvancedSurvival1">
+		<property name="group_name"   value="Advanced Survival Training" />
+		<property name="name"         value="Clubing Zombies" /> 
+		<property name="subtitle"     value="Advanced Clubs" />
+		<property name="description"  value="Its time to Learn CLUBS, The Master Of Desaster, Thats YOU, Yeah !!." />
+		<property name="icon"         value="ui_game_symbol_survival" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty"   value="easy"/>
+		<property name="difficulty_tier" value="1" />
+		<property name="offer"        value="This will Help defend you when your out of ammo." />
+		<property name="shareable"    value="false" />
+
+		<action type="TrackQuest" />
+
+		<objective type="FetchKeep" id="resourceForgedSteel" value="20" phase="1" />
+		<objective type="FetchKeep" id="resourceDuctTape" value="15" phase="1" />
+		<objective type="FetchKeep" id="resourceScrapPolymers" value="10" phase="1" />
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1" />
+		<objective type="Craft" id="HD Xcalibur" value="1" phase="2" />
+
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="quest_AdvancedSurvival2" />
+		<reward type="SkillPoints" value="1" chainreward="true" />
+	</quest>
+
+
+	<quest id="quest_AdvancedSurvival2">
+		<property name="group_name"  value="Advanced Survival Training" />
+		<property name="name"        value="Craft HD Mini Hatchet" />
+		<property name="subtitle"        value="Time To Upgrade Your Axe again" />
+		<property name="subtitle_key"    value="Upgrade Your Axe" />
+		<property name="description_key" value="Having an Axe is one thing, Having it last longer is another !!." />
+		<property name="icon"            value="ui_game_symbol_survival" />
+		<property name="category_key" value="quest" />
+		<property name="offer_key" value="quest_BasicSurvival_offer" />
+		<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="resourceForgedIron" value="20" phase="1" />
+		<objective type="FetchKeep" id="resourceDuctTape" value="10" phase="1" />
+		<objective type="FetchKeep" id="resourceLeather" value="5" phase="1" />
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1" />
+		<objective type="Craft" id="HD Mini Hatchet" value="1" phase="2" />
+
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="quest_AdvancedSurvival3" />
+		<reward type="SkillPoints" value="1" chainreward="true" />
+	</quest>
+
+
+	<quest id="quest_AdvancedSurvival3">
+		<property name="group_name"      value="Advanced Survival Training" />
+		<property name="name"            value="Craft HD Wrench" />
+		<property name="subtitle"        value="To for Another Upgrade" />
+		<property name="subtitle"        value="Destroying Cars" />
+		<property name="description"     value="One of the best ways to get resources is to Dismantle Vehicles." />
+		<property name="icon"            value="ui_game_symbol_survival" />
+		<property name="category_key"    value="quest" />
+		<property name="offer_key"       value="quest_BasicSurvival_offer" />
+		<property name="shareable"       value="false" />
+
+		<objective type="FetchKeep" id="resourceForgedSteel" value="150" phase="1" />
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="25" phase="1" />
+		<objective type="FetchKeep" id="resourceDuctTape" value="30" phase="1" />
+		<objective type="FetchKeep" id="resourceScrapPolymers" value="50" phase="1" />
+		<objective type="FetchKeep" id="resourceSpring" value="10" phase="1" />
+		<objective type="Craft" id="HD Wrench" value="1" phase="2" />
+
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="quest_AdvancedSurvival4" />
+		<reward type="SkillPoints" value="1" chainreward="true" />
+	</quest>
+
+
+	<quest id="quest_AdvancedSurvival4">
+		<property name="group_name"      value="Advanced Survival Training" />
+		<property name="name"            value="Craft HD Lock Pick" />
+		<property name="subtitle"        value="Breaking And Entering" />
+		<property name="description"     value="So youve made it this far !! Time to learn the ART of Breaking And Entering, Safes is were its at." />
+		<property name="icon"            value="ui_game_symbol_survival" />
+		<property name="category_key"    value="quest" />
+		<property name="difficulty"      value="easy" />
+		<property name="shareable"       value="false" />
+
+		<objective type="FetchKeep" id="resourceForgedIron" value="10" phase="1" />
+		<objective type="FetchKeep" id="resourceDuctTape" value="5" phase="1" />
+		<objective type="FetchKeep" id="resourceSpring" value="5" phase="1" />
+		<objective type="FetchKeep" id="resourceOil" value="5" phase="1" />
+		<objective type="FetchKeep" id="resourceLeather" value="5" phase="1" />
+		<objective type="Craft" id="HD Lock Pick" value="5" phase="2" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="quest_AdvancedSurvival5" />
+		<reward type="SkillPoints" value="1" chainreward="true" />
+	</quest>
+	
+	<quest id="quest_AdvancedSurvival5">
+		<property name="group_name"      value="Advanced Survival Training" />
+		<property name="name"            value="Craft Phury 9mm" />
+		<property name="subtitle"        value="Pistoleering" />
+		<property name="description"     value="A 9mm Pistol that requires NO ammo, This is now your best friend !!." />
+		<property name="icon"            value="ui_game_symbol_survival" />
+		<property name="category_key"    value="quest" />
+		<property name="difficulty"      value="easy" />
+		<property name="shareable"       value="false" />
+
+		<objective type="FetchKeep" id="resourceForgedSteel" value="75" phase="1" />
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="45" phase="1" />
+		<objective type="FetchKeep" id="resourceDuctTape" value="15" phase="1" />
+		<objective type="FetchKeep" id="resourceScrapPolymers" value="25" phase="1" />
+		<objective type="FetchKeep" id="resourceSpring" value="10" phase="1" />
+		<objective type="Craft" id="Phury 9mm" value="1" phase="2" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" chainreward="false" />
+	</quest>
+
+</insertBefore>
+</config>

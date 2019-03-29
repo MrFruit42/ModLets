@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax']/@value">15,20</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">10,15</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax']/@value">15,20</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">20,25</set>
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">25,30</set>
+	
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='motorTorqueMinQ']/@value">1</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='motorTorqueMaxQ']/@value">1</set>
+	
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='motorTorqueMinQ']/@value">8000</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='motorTorqueMaxQ']/@value">9000</set>
+	
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='motorTorqueMinQ']/@value">8000</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='motorTorqueMaxQ']/@value">9000</set>
+	
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='motorTorqueMinQ']/@value">8000</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='motorTorqueMaxQ']/@value">9000</set>
+	
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='motorTorqueMinQ']/@value">8000</set>
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='motorTorqueMaxQ']/@value">9000</set>
+
+</configs>
