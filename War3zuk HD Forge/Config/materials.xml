@@ -1,0 +1,13 @@
+<configs>
+	
+<append xpath="/materials">
+
+<material id="MresourceForgedBrass">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="Brass"/>
+	<property name="Experience" value="20"/>
+</material>
+
+</append>
+</configs>
