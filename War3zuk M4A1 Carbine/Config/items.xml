@@ -39,7 +39,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-0.00062,0,0.055"/>
+		<property name="ScopeCameraOffset" value="0.00012,-0.01335,0.0095"/>
 	</property>
 
 	<effect_group name="Base Effects">
