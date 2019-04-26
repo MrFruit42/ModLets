@@ -70,10 +70,10 @@
 
 				<reward type="Exp" value="2000" />
 				<reward type="SkillPoints" value="1" />
-				<reward type="Item" id="armorLeatherChest" value="5,6" />
-				<reward type="Item" id="armorLeatherGloves" value="5,6" />
-				<reward type="Item" id="armorLeatherPants" value="5,6" />
-				<reward type="Item" id="armorLeatherBoots" value="5,6" />
+				<reward type="Item" id="armorLeatherChest" value="5-6" />
+				<reward type="Item" id="armorLeatherGloves" value="5-6" />
+				<reward type="Item" id="armorLeatherPants" value="5-6" />
+				<reward type="Item" id="armorLeatherBoots" value="5-6" />
 			</quest>
 			
 			<quest id="War3zuk Quest 03">
@@ -98,7 +98,7 @@
 				</objective>
 
 				<action type="SpawnEnemy" id="animalBear" value="3" phase="3" />
-				<objective type="ZombieKill" id="animalBear" value="3" phase="3" />
+				<objective type="AnimalKill" id="animalBear" value="3" phase="3" />
 				
 				<objective type="InteractWithNPC">
 				<property name="phase" value="4" />
@@ -106,10 +106,10 @@
 
 				<reward type="Exp" value="2000" />
 				<reward type="SkillPoints" value="1" />
-				<reward type="Item" id="resourceLeather" value="50,150" />
-				<reward type="Item" id="resourceTestosteroneExtract" value="20,60" />
-				<reward type="Item" id="resourceCloth" value="50,150" />
-				<reward type="Item" id="resourceMilitaryFiber" value="50,200" />
+				<reward type="Item" id="resourceLeather" value="50-150" />
+				<reward type="Item" id="resourceTestosteroneExtract" value="20-60" />
+				<reward type="Item" id="resourceCloth" value="50-150" />
+				<reward type="Item" id="resourceMilitaryFiber" value="50-200" />
 			</quest>
 
 </insertBefore>
